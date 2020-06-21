@@ -1,0 +1,368 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+* {
+    font-family: 'Poppins';
+    color: #4b4b4b;
+}
+.phone, .at, .gps{
+    width:30px;
+    height:50px;
+}
+.nav-tab{
+    z-index: 2;
+}
+button{
+    border:none;
+    outline: none;
+}
+/* .nav-scroll{
+    display: inline;
+    z-index: 1;
+    position: fixed;
+} 
+
+ .banner {
+    position: fixed;
+    left: 0;
+    height: 60px;
+    background: rgba(233, 229, 229, 0);
+    transition: transform 400ms;
+    z-index: 2;
+    
+  }
+  .banner.hide {
+    transform: translateY(-60px);
+  } */
+.name{
+    font-family: 'Poppins';
+    font-size: 35px; 
+    color:#313131;
+    margin-top: 50px;
+    font-weight: 600;
+ }
+.designation{
+    color: #5B86E4;
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+.aboutme{
+    margin-top: 100px;
+}
+.aboutMeContent{
+    text-align: center;
+}
+.footer{
+    background-color: #0263b8;
+    color:white;
+    height:55px;
+}
+.copyright{
+    font-size: '10px';
+    font-weight: 'light';
+    font-family: 'Poppins';
+    color: white;
+}
+
+  .carousel-item > img{
+    border-radius: 2px;
+  }
+.card{
+    border: 0px;
+    border-radius: 0px;
+    padding: 20px 10px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+button:focus {
+    outline: none;
+    border: 0;
+}
+.about{
+    margin-top: 100px;
+}
+.heading {
+    color: #5B86E4;
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+    z-index:1;
+}
+.heading:after {
+	content: ' ';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 2em;
+  width: 100%;
+  border-bottom: 3px solid;
+  opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+    transform: scale(0,1);
+    border-radius: 3%;
+}
+
+.heading:hover:after {
+  opacity: 1;
+	-webkit-transform: scale(1);
+    transform: scale(1);
+    color:#FFB700;
+    cursor: pointer;
+    z-index: 1;
+
+}
+.techImg{
+    margin-top: 30px;
+    padding-right: 10px;
+}
+.techImgRow2{
+    margin-top: 30px;
+    padding-right: 30px;
+}
+.paddingPath2{
+    margin-left: 15px;
+}
+.portfolio{
+  text-align: center;
+  margin-top: 100px;
+}
+.work-box{
+    background-color: #5B86E4;
+}
+/* .work-card{
+    border: 1px solid #5B86E4;
+} */
+.work-card:hover, .contact-card:hover{
+    -webkit-box-shadow:0 0 15px rgba(135,135,135, 0.6);
+    -moz-box-shadow:0 0 15px rgba(135,135,135, 0.6);
+    box-shadow: 2px 2px 15px 0 rgba(135,135,135, 0.6);
+    border-radius: 2px;
+    transition: all 0.2s ease 0s;
+}
+.work-role,.work-period {
+    color:white;
+}
+.navbar-nav > .nav-item{
+    font-size: 14px;
+}
+.nav-item > .nav-link{
+    color:#4b4b4b;
+}
+ .nav-item > .nav-link.active, .nav-link.focus {
+     color:#5B86E4;
+    font-weight:550;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+.downloadcv{
+    color: #FFFFFF;
+    font-weight: 550;
+    /* padding: 10px 100%; */
+    width:78%;
+    background-color: #5B86E4;
+    padding: 10px;
+    outline: none;
+    border:0;
+
+}
+.skills{
+    padding:10px 0px;
+}
+  .title-bar-html{
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .skillhtml{
+    background-color:#FF715A;
+    width:0px;
+    height:5px;
+    border-radius: 2px;
+  }
+  .skillcss{
+    background-color:#1758A7;
+    width:0px;
+    height:5px;
+    border-radius: 2px;
+  }
+  .skilljs{
+    background-color:#F1BF26;
+    width:0px;
+    height:5px;
+    border-radius: 2px;
+  }
+  .skillts{
+    background-color:#007ACC;
+    width:0px;
+    height:5px;
+    border-radius: 2px;
+  }
+  .skillbs{
+    background-color:#673AB7;
+    width:0px;
+    height:5px;
+    border-radius: 2px;
+  }
+  .skillxd{
+    background-color:#FE2AC1;
+    width:0px;
+    height:5px;
+    border-radius: 2px;
+  }
+  .skillps{
+    background-color:#35C3FD;
+    width:0px;
+    height:5px;
+    border-radius: 2px;
+  }
+  .skillai{
+    background-color:#FC7C1B;
+    width:0px;
+    height:5px;
+    border-radius: 2px; 
+  }
+  .skillae{
+    background-color:#393665;
+    width:0px;
+    height:5px;
+    border-radius: 2px; 
+  }
+  .skillf{
+    background-color:#cfc2b8;
+    width:0px;
+    height:5px;
+    border-radius: 2px; 
+  }
+.logo{
+    bottom: 25%;
+    left: 25%;
+}
+    .flipped { 
+        transform: rotateY(180deg);
+        transition: 0.5s ease-in;
+        z-index: 2;
+      }
+.card-text, h4, li{
+    color:#4b4b4b;
+}
+.card-text{
+    font-size: 14px;
+}
+.edu-text, .work-period {
+    font-size:14px;
+}
+.work-role{
+    color: white;
+}
+@media screen and (max-width: 2560px) {
+    div.landing{
+            height:500px;
+            width:100%;
+    }
+    .educard{
+        height:250px
+    }
+}
+@media screen and (max-width: 1920px) {
+    div.landing{
+            height:500px;
+            width:100%;
+    }
+    .educard{
+        height:260px
+    }
+}
+@media screen and (max-width: 1440px) {
+    div.landing{
+            height:500px;
+            width:100%;
+    }
+    .navItem {
+        padding: 10px 19px;
+      
+    }
+    .educard{
+        height:280px
+    }
+}
+@media screen and (max-width: 1024px) {
+    div.landing{
+            height:500px;
+            width:100%;
+    }
+    .navItem {
+        padding: 10px 19px;
+      
+    }
+    .cr{
+        display: none;
+    }
+    .educard{
+        height:300px
+    }
+}
+@media screen and (max-width: 992px) {
+ div.landing{
+        height:500px;
+        width:100%;
+    }
+    .educard{
+        height:300px
+    }
+}
+@media screen and (max-width: 768px) {
+    div.landing{
+        height:500px;
+        width:100%;
+}
+.cr{
+    display: none;
+}
+.educard{
+    height:350px
+}
+}
+@media screen and (max-width: 576px) {
+    .landing{
+        height:500px;
+        width:100%;
+}
+.educard{
+    height:300px
+}
+} 
+
+.Responsibilities{
+    color: #0464BA;
+}
+.contacticontext{
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+.contactText{
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: large;
+    color: #4b4b4b;
+}
+html::-webkit-scrollbar {
+    width:0px;
+ }
+.cricket, .music, .beer, .cinema, .bike{
+    height:120px;
+    width:120px;
+}
+.animated {
+    visibility: visible !important;
+}
+.hide-on-init {
+    visibility: hidden;
+}
