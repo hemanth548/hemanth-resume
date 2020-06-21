@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
 
 
 @NgModule({
@@ -12,9 +11,7 @@ import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    AnimateOnScrollModule.forRoot()
-
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
