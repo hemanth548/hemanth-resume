@@ -252,14 +252,20 @@ button:focus {
 .card-text, h4, li{
     color:#4b4b4b;
 }
-.card-text{
-    font-size: 14px;
+.card-text, .category{
+    max-width:478px;
+    font-size: 15px;
+    line-height: 25px;
 }
 .edu-text, .work-period {
-    font-size:14px;
+    font-size:15px;
 }
 .work-role{
     color: white;
+}
+.project-img:hover{
+    -webkit-transform: scale(1);
+    transform: scale(1);
 }
 @media screen and (max-width: 2560px) {
     div.landing{
@@ -348,7 +354,7 @@ button:focus {
     font-weight: bold;
 }
 .contactText{
-    font-size: 14px;
+    font-size: 15px;
     font-family: 'Poppins';
     font-weight: large;
     color: #4b4b4b;
@@ -360,9 +366,13 @@ html::-webkit-scrollbar {
     height:120px;
     width:120px;
 }
-.animated {
-    visibility: visible !important;
-}
-.hide-on-init {
-    visibility: hidden;
-}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
