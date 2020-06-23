@@ -26,21 +26,21 @@ constructor(){
 });
 
 
-window.setInterval(function() { //setInterval (loop a function)
-  $(".cricket").toggleClass("flipped"); //toggle class "flipped"
-}, 2500);
-window.setInterval(function() { //setInterval (loop a function)
-  $(".bike").toggleClass("flipped"); //toggle class "flipped"
-}, 1500);
-window.setInterval(function() { //setInterval (loop a function)
-  $(".music").toggleClass("flipped"); //toggle class "flipped"
-}, 1000);
-window.setInterval(function() { //setInterval (loop a function)
-  $(".cinema").toggleClass("flipped"); //toggle class "flipped"
-}, 2000);
-window.setInterval(function() { //setInterval (loop a function)
-  $(".beer").toggleClass("flipped"); //toggle class "flipped"
-}, 2000);
+// window.setInterval(function() { //setInterval (loop a function)
+//   $(".cricket").toggleClass("flipped"); //toggle class "flipped"
+// }, 2500);
+// window.setInterval(function() { //setInterval (loop a function)
+//   $(".bike").toggleClass("flipped"); //toggle class "flipped"
+// }, 1500);
+// window.setInterval(function() { //setInterval (loop a function)
+//   $(".music").toggleClass("flipped"); //toggle class "flipped"
+// }, 1000);
+// window.setInterval(function() { //setInterval (loop a function)
+//   $(".cinema").toggleClass("flipped"); //toggle class "flipped"
+// }, 2000);
+// window.setInterval(function() { //setInterval (loop a function)
+//   $(".beer").toggleClass("flipped"); //toggle class "flipped"
+// }, 2000);
 
 
 

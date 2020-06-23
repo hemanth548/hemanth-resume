@@ -1,4 +1,5 @@
-<nav id="navbar" class="mx-auto navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+
+<nav id="navbar" class="mx-auto navbar navbar-expand-md fixed-top">
   <!-- Navbar content -->
   <a href="#about" class="navbar-brand"><img src="../assets/logo.png"></a>
   <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -6,7 +7,7 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarCollapse">
-      <div class="navbar-nav col-12 d-flex justify-content-end">
+      <div class="navbar-nav col-12 d-flex justify-content-end mx-auto">
           <a href="#about" class="nav-item nav-link pr-4">About</a>
           <a href="#whatIDo" class="nav-item nav-link pr-4">What I Do</a>
           <a href="#experience" class="nav-item nav-link pr-4">Experience</a>
@@ -14,34 +15,36 @@
           <a href="#works" class="nav-item nav-link pr-4">Works</a>
           <a href="#hobbies" class="nav-item nav-link pr-4">Hobbies</a>
           <a href="#projects" class="nav-item nav-link pr-4">Projects</a>
-          <a href="#contact" class="nav-item nav-link pr-4">Contact</a>
+          <a href="#contact" class="nav-item nav-link">Contact</a>
 
       </div>
   </div>
 </nav>
 <!------------------------------ about me ---------------------------------->
-<div class="col-xs-12 col-sm-12 col-md-10 col-lg-9 col-xl-8 mx-auto">
-<div id="about" class="container card aboutme">
-    <div class="col-12">
-        <div class="intro">
-            <h1 class="name text-center noselect">Hemanth Reddy C R</h1>
-            <h3 class="designation text-center my-2 noselect">UI UX Developer</h3>
+
+<!-- <div id="about" class="aboutme bg-image h-100">
+    <div class="my-auto">
+            <h1 class="name text-center noselect ">Hemanth Reddy C R</h1>
+            <p class="aboutMeContent col-7 mx-auto my-3 noselect">I am an User Interface and User Experience Developer based on Benguluru. I am experienced in User Experience Designing, Graphic Designing, Web designing and Web Development</p>
+        </div>
+</div> -->
+
+<div class="aboutme bg-image row">
+    <div class="mx-auto my-auto">
+        <h1 class="name text-center noselect ">Hemanth Reddy C R</h1>
+            <p class="aboutMeContent col-7 mx-auto my-3 noselect">I am Benguluru based User Interface and User Experience Developer, experienced in UX, Graphic, Web Designing and Web Development</p>
     </div>
-        <p class="aboutMeContent my-3 noselect">I am an User Interface and User Experience Developer based on Benguluru. I am experienced in User Experience Designing, Graphic Designing, Web designing and Web Development.</p>
-    </div>
-</div>
-<div class="col-xs-10 col-sm-10 col-md-5 col-lg-4 col-xl-4 mx-auto">
-  <a href="https://drive.google.com/file/d/1Do6xUDCvWVQoEn97o_56t_mEwaCRvwFd/view?usp=sharing" target="_blank"><button class=" my-3 downloadcv btn-1 text-center">Download CV</button></a>
 </div>
 <!------------------------------ what I Do ---------------------------------->
 <p id="whatIDo" class="heading my-5 col-2 text-center mx-auto">What I Do</p>
+<div class="col-xs-12 col-lg-8 mx-auto">
 <div class="container">
     <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2 col-xl-2 mx-auto">
+            <div class="col-xs-12 col-lg-6 text-center">
                 <img class="img-responsive" src="../assets/development.png">
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                <div class="card-body mx-auto">
+            <div class="col-xs-12 col-lg-6">
+                <div class="card-body wid-txt mx-auto">
                     <div class="h4">Web Development</div>
                      <h6 class="category noselect">Write well designed, testable, efficient code
                         with markup languages with best software
@@ -50,24 +53,24 @@
             </div>
     </div>
     <div class="row my-5">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-5 mx-auto">
-            <div class="card-body mx-auto">
+        <div class="col-xs-12 col-lg-6 text-center">
+            <div class="card-body wid-txt mx-auto">
                 <div class="h4">User Interface Design</div>
                  <h6 class="category noselect">Designing graphic user interface by gathering
                     user requirements, in collaboration with
                     managers and engineers</h6>
               </div>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2 col-xl-2 mx-auto">
-            <img class="img-responsive" src="../assets/uidesign.png">
+        <div class="col-xs-12 col-lg-6">
+            <img class="img-responsive mx-auto" src="../assets/uidesign.png">
         </div>
     </div>
     <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2 col-xl-2 mx-auto">
-            <img class="img-responsive" src="../assets/logodesign.png">
+        <div class="col-xs-12 col-lg-6 text-center">
+            <img class="img-responsive mx-auto" src="../assets/logodesign.png">
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-            <div class="card-body mx-auto">
+        <div class="col-xs-12 col-lg-6">
+            <div class="card-body wid-txt mx-auto">
                 <div class="h4">Logo Design</div>
                  <h6 class="category noselect">Designing and execution of various branding
                     materials of the organization for marketing
@@ -82,13 +85,13 @@
 <p id="experience" class="heading text-center my-5 col-2 mx-auto">Experience</p>
 <div class="work-card col-12 mt-5">
   <div class="row">
-    <div class="col-md-3 work-box">
-      <div class="card-body cc-education-header my-4" offset="20" animateOnScroll animationName="animated slideDown">
-        <p class="work-period noselect">January 2015 - Present</p>
-        <div class="work-role h5 noselect">UI UX Developer</div>
+    <div class="col-sm-12 col-lg-3 work-box">
+      <div class="card-body cc-education-header my-4">
+        <p class="work-period noselect text-center my-auto">January 2015 - Present</p>
+        <div class="work-role h5 noselect text-center">UI UX Developer</div>
       </div>
     </div>
-    <div class="col-md-9">
+    <div class="col-sm-12 col-lg-3">
       <div class="card-body">
         <div class="h5">OJAS Innovative Technologies Pvt Ltd</div>
          <h6 class="category">Hyderabad</h6>
@@ -106,10 +109,10 @@
 <div class="container">
     <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-3 col-lg-2 col-xl-2 mx-auto">
-                <img class="img-fluid img-responsive" src="../assets/boy.png">
+                <img class="img-fluid img-responsive text-center" src="../assets/boy.png">
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-6 col-xl-6">
-                <div class="card-body">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="card-body school">
                     <div class="h5">Ravindra Bharathi School</div>
                      <h6 class="category">Punganuru</h6>
                      <ul class="my-auto">
@@ -121,8 +124,8 @@
             </div>
     </div>
     <div class="row my-5">
-        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-6 col-xl-6 mt-5">
-            <div class="card-body">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mt-5">
+            <div class="card-body college">
                 <div class="h5">Madanapalli Institute of Technology & Science</div>
                  <h6 class="category">Madanapalli</h6>
                  <ul class="my-auto">
@@ -268,21 +271,22 @@
 <div class="container mx-auto my-2">
     <div class="row">
         <div class="mx-auto">
-            <img class="cricket img-responsive img-fluid mx-auto pt-4" src="../assets/cricket.png">
+            <img class="cricket flipped img-responsive img-fluid mx-auto pt-4" src="../assets/cricket.png">
         </div>
         <div class="mx-auto">
-            <img class="music img-responsive img-fluid mx-auto pt-4" src="../assets/music.png">
+            <img class="music flipped img-responsive img-fluid mx-auto pt-4" src="../assets/music.png">
         </div>
         <div class="mx-auto">
-            <img class="cinema img-responsive img-fluid mx-auto pt-4" src="../assets/cinema.png">
+            <img class="cinema  flipped img-responsive img-fluid mx-auto pt-4" src="../assets/cinema.png">
         </div>
         <div class="mx-auto">
-            <img class="bike img-responsive img-fluid mx-auto pt-4" src="../assets/bike.png">
+            <img class="bike flipped img-responsive img-fluid mx-auto pt-4" src="../assets/bike.png">
         </div>
     </div>
 </div>
 <!-- -------------------------------- client Review ------------------------- -->
 <p id="projects" class="heading col-2 text-center my-5 mx-auto">Projects</p>
+<div class="container">
 <div class="row">
   <div class="project-card card col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mx-auto">
     <div class="card-body">
@@ -308,7 +312,7 @@
   </div>
 </div>
 <div class="row">
-  <div class="card project-card col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mx-auto">
+  <div class="card project-card col-xs-12 col-lg-6 ">
     <div class="card-body">
       <h5 class="card-title noselect">DineMore</h5>
       <h6 class="card-subtitle mb-2 text-muted noselect">Online Food Order</h6>
@@ -319,7 +323,7 @@
       <a href="#">Go to Project</a>
     </div>
   </div>
-  <div class="card project-card col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mx-auto">
+  <div class="card project-card col-xs-12 col-lg-6 float-right">
     <div class="card-body">
       <h5 class="card-title noselect">Vcredit</h5>
       <h6 class="card-subtitle mb-2 text-muted noselect">Instant Loan Application for Students</h6>
@@ -331,10 +335,7 @@
     </div>
   </div>
 </div>
-
-
-
-
+</div>
 
 <!------------------------------ contact ---------------------------------->
 <p id="contact" class="heading col-2 text-center my-5 mx-auto">Contact</p>
@@ -376,6 +377,8 @@
                             src="../../assets/t.png"></a></div>
                 <div class="px-4"><a href="https://www.facebook.com/hemanth.reddy.48" target="_blank"><img
                             src="../../assets/f.png"></a></div>
+                <div class="px-4"><a href="https://drive.google.com/file/d/1Do6xUDCvWVQoEn97o_56t_mEwaCRvwFd/view?usp=sharing" target="_blank"><img
+                            src="../../assets/download.png"></a></div>
             </div>
         </div>
     </div>
