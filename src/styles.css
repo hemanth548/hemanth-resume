@@ -233,9 +233,18 @@ button:focus {
     height:5px;
     border-radius: 2px; 
   }
+  .skillwp{
+    background-color:#21759b;
+    width:0px;
+    height:5px;
+    border-radius: 2px; 
+  }
 .logo{
     bottom: 25%;
     left: 25%;
+}
+.project-link{
+    color: #5B86E4;
 }
 @keyframes flipped_item{
     0% {
@@ -280,6 +289,9 @@ button:focus {
     -webkit-transform: scale(1);
     transform: scale(1);
 }
+
+
+
 @media screen and (max-width: 2560px) {
     div.landing{
             height:500px;
@@ -355,6 +367,9 @@ button:focus {
 }
 .educard{
     height:300px
+}
+.student_img{
+    width: 340px ;
 }
 } 
 
