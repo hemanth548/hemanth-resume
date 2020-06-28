@@ -27,14 +27,12 @@ button{
 }
 .bg-image{
     height: 500px;
-    background: url(./assets/bg-image.png) no-repeat center center fixed; 
+    background: url(./assets/bg-image.png) no-repeat fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-    position: relative;
+    background-size: cover !important;  
     width: 100%;
-    
 
 }
 .name{
@@ -54,16 +52,14 @@ button{
     font-size: 20px;
     font-family: 'Poppins';
 }
-.footer, .footer-icon{
+.footer{
     background-color: #1e79b6;
     color:white;
-    height:60px;
+    height:80px;
+    width:100%;
 }
-.copyright{
-    font-size: '10px';
-    font-weight: 'light';
-    font-family: 'Poppins';
-    color: white;
+.footer-icons{
+    top: 40%;
 }
 .wid-txt{
     margin-top: 60px;
@@ -296,8 +292,8 @@ button:focus {
 }
 
 .project-img:hover {
-  filter: contrast(2);
-  -webkit-filter: contrast(2);
+  filter: contrast(1.7);
+  -webkit-filter: contrast(1.7);
   transition: 0.6s;
 }
 @media screen and (max-width: 2560px) {
@@ -358,8 +354,9 @@ html::-webkit-scrollbar {
               user-select: none; /* Non-prefixed version, currently
                                     supported by Chrome, Edge, Opera and Firefox */
   }
-  .footer{
-      width:100%;
+  .line{
+      height:2px;
+      background-color: rgba(255, 255, 255, 0.5);
+      border-radius: 1px;
   }
-
   
