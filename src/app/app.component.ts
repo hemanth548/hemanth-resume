@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import * as AOS from 'aos';
 
 declare var $;
 declare var jQuery : any;
@@ -10,6 +11,14 @@ declare var jQuery : any;
 })
 export class AppComponent {
  title="hemanth-resume" 
+ ngOnInit() {
+  AOS.init({
+      offset: 200,
+      duration: 1000,
+      easing: 'ease-in-sine',
+      delay: 0,
+  });
+}
 constructor(){
   $(document).ready(function(){
   
